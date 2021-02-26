@@ -57,7 +57,7 @@ Dashboard
 ## Input & Delete (Showing Dataset) Page:
 ![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2019.png)
 
-## Input & Delete (Showing input and delete) Page:
+## Input & Delete (Showing Input and Delete) Page:
 ![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2020.png)
 
 ## Visualization Page:
