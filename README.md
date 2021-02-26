@@ -1,1 +1,24 @@
-# Final_Project_Tropical_Cyclone_Classifier
+# Final Project Purwadhika Data Science : Tropical Cyclone Classifier
+
+by: Fachri Ardiansyah
+Datasets: - pacific.csv Source : [Kaggle](https://www.kaggle.com/justinas/nba-players-data)
+          - Pacific_Cleansed.csv
+          - Pacific_for_Modelling.csv
+          - Pacific_Deployment.csv
+
+ABSTRACT
+---
+
+Tropical cyclone, also called typhoon or hurricane, an intense circular storm that originates over warm tropical oceans and is characterized by low atmospheric pressure, high winds, and heavy rain.
+
+Tropical cyclones have always been a concern for meteorologists. Machine learning, as a means of artificial intelligence, has been certified by many researchers as being able to provide a new way to solve the bottlenecks of tropical cyclone forecasts, whether using a pure data-driven model or improving numerical models by incorporating machine learning. A large amount of multi-source meteorological data have also not been fully utilized to improve the accuracy of tropical cyclone forecasting and by incorporating Machine Learning, numerical forecast models can be improved
+
+PROJECT OBJECTIVE
+---
+The primary objective of this project is to build an effective Machine Learning Model with High Precision Score (since false nagatives would be more catastrophic than false positives) to classify the Tropical Cyclones based on their intensities using the historical data provided by NOAA.
+
+DASHBOARD
+---
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2015.png)
+HOMEPAGE
+---
