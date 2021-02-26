@@ -3,7 +3,7 @@
 
 ![cyclone](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/aa.png)
 
-### by: Fachri Ardiansyah
+## by: Fachri Ardiansyah
 
 ### Datasets: 
 * [pacific.csv](https://www.kaggle.com/noaa/hurricane-database)
