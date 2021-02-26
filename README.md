@@ -4,11 +4,12 @@ by: Fachri Ardiansyah
 
 ![cyclone](https://upload.wikimedia.org/wikipedia/commons/0/04/Hurricane_Isabel_from_ISS.jpg)
 
-Datasets: - [pacific.csv](https://www.kaggle.com/noaa/hurricane-database)
-          - [Pacific_Cleansed.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_Cleansed.csv)
-          - [Pacific_for_Modelling.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_for_Modelling.csv)
-          - [Pacific_Deployment.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_Deployment.csv)
-Source : https://www.kaggle.com/noaa/hurricane-database
+* Datasets: - [pacific.csv](https://www.kaggle.com/noaa/hurricane-database)
+            - [Pacific_Cleansed.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_Cleansed.csv)
+            - [Pacific_for_Modelling.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_for_Modelling.csv)
+            - [Pacific_Deployment.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_Deployment.csv)
+          
+* Source : https://www.kaggle.com/noaa/hurricane-database
 
 
 
