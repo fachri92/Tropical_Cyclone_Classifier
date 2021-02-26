@@ -20,5 +20,44 @@ The primary objective of this project is to build an effective Machine Learning 
 DASHBOARD
 ---
 ![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2015.png)
-HOMEPAGE
----
+
+## Home Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2016.png)
+
+## About Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2026.png)
+
+## Predict Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2017.png)
+
+## Result Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2018.png)
+
+## Input & Delete (Showing Dataset) Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2019.png)
+
+## Input & Delete (Showing input and delete) Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2020.png)
+
+## Visualization Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2021.png)
+
+## Visualization Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2022.png)
+
+## Visualization Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2023.png)
+
+## Visualization Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2024.png)
+
+## Visualization Page:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2025.png)
+
+
+
+
+
+
+
+
