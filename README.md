@@ -2,12 +2,12 @@
 
 by: Fachri Ardiansyah
 
-![cyclone](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTropical_cyclone&psig=AOvVaw3tLdBXEgn5RmOdTx82Q6xK&ust=1614413416042000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDb6-OMh-8CFQAAAAAdAAAAABAD)
+![cyclone](https://upload.wikimedia.org/wikipedia/commons/0/04/Hurricane_Isabel_from_ISS.jpg)
 
-Datasets: - [pacific.csv]!(https://www.kaggle.com/noaa/hurricane-database)
-          - [Pacific_Cleansed.csv]!(https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_Cleansed.csv)
-          - [Pacific_for_Modelling.csv]!(https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_for_Modelling.csv)
-          - [Pacific_Deployment.csv]!(https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_Deployment.csv)
+Datasets: - ![pacific.csv](https://www.kaggle.com/noaa/hurricane-database)
+          - ![Pacific_Cleansed.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_Cleansed.csv)
+          - ![Pacific_for_Modelling.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_for_Modelling.csv)
+          - ![Pacific_Deployment.csv](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Pacific_Deployment.csv)
 Source : https://www.kaggle.com/noaa/hurricane-database
 
 
