@@ -1,8 +1,9 @@
 # Final Project Purwadhika Data Science : Tropical Cyclone Classifier
 
-by: Fachri Ardiansyah
 
-![cyclone](https://upload.wikimedia.org/wikipedia/commons/0/04/Hurricane_Isabel_from_ISS.jpg)
+![cyclone](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/aa.png)
+
+### by: Fachri Ardiansyah
 
 ### Datasets: 
 * [pacific.csv](https://www.kaggle.com/noaa/hurricane-database)
