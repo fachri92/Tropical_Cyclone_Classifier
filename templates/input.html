@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Delete Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body class= "background" style="background-image: url('https://assets.climatecentral.org/images/made/5_29_15_Andrea_TyphoonMaysak_1050_698_s_c1_c_c.jpg');background-size:cover;">
+  <br>
+  <center>
+    <a class="nav-link active" href="/"><img src="http://localhost:4000/static/logo.png" width="50%"><span class="sr-only">(current)</span></a>
+  </center>
+  <br>   
+  <br>
+    <div class="jumbotron">
+      <div class="container"></div>
+      <center><img src="http://localhost:4000/static/input.png" width="17%"></center>
+      <center>
+        <div class="col-xl-8 scroll">
+          <table class="table sticky table-bordered table-striped ">
+            <thead>
+              <tr>
+                <center></center>
+                <!-- 'Name', 'Date', 'Status' ,'Latitude_Hemisphere', 'Longitude_Hemisphere', 'Maximum Wind', 'Minimum Pressure' -->
+                <th scope="col"><center>No</center></th>
+                <th scope="col"><center>Name</center></th>
+                <th scope="col"><center>Month</center></th>
+                <th scope="col"><center>Year</center></th>
+                <th scope="col"><center>Status</center></th>
+                <th scope="col"><center>Maximum Wind</center></th>
+                <th scope="col"><center>Minimum Pressure</center></th>
+
+              </tr>
+            </thead>
+            <tbody>
+              {% for x in n %}
+              <tr>     
+                <td>{{x+1}}</td>
+                <td>{{list_name[x]}}</td>
+                <td>{{list_month[x]}}</td>
+                <td>{{list_year[x]}}</td>
+                <td>{{list_status[x]}}</td>
+                <td>{{list_max[x]}}</td>
+                <td>{{list_min[x]}}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </center>
+      <br><br><br><br>
+
+      <div class="container center-block">
+        <div>
+          <div class="row">
+            <div class="col-md-6 order-md-2 mb-4">
+              <form method="POST" action="http://localhost:4000/delete">
+                <h4 class=" justify-content-between align-items-center mb-3">
+                  <span class="text"><center>Delete Data Rows From Below</center></span>
+                </h4>
+                <label>Row</label>
+                <form class="card p-2">
+                  <div class="input-group">
+                    <input type="number" step= "1" class="form-control" name="Row" placeholder="Number of Row" required=True>
+                    <div class="input-group-append">
+                      <button type="submit" class="btn btn-secondary">Delete</button>
+                    </div>
+                  </div>
+                </form>
+              </form>
+            </div>
+            <br>
+            <div class="col order-md-1">
+              <form method="POST" action="http://localhost:4000/inputdata">
+                <div class="row">
+                  <div class="col order-md-1">
+                    <h4 class="mb-3"><center>Input Data</center></h4>
+                    <form class="needs-validation" novalidate>
+                      <div class="row">
+                        <div class="col-md-5 mb-3">
+                          <label for="Name">Name</label>
+                          <input type="text" class="form-control" name="Name" placeholder="Name of Cyclone" required=True>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="Month">Month</label>
+                          <input type="number" step= "1" min='1' max='12' class="form-control" name="Month" placeholder="Month" required=True>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="Year">Year</label>
+                          <input type="number" step= "1"  class="form-control" name="Year" placeholder="Year" required=True>
+                        </div>
+                      </div>
+              
+                      <div class="row">
+                        <div class="col-md-5 mb-3">
+                          <label for="Maximum Wind">Maximum Wind</label>
+                          <input type="number" step= "1"  class="form-control" name="Maximum Wind" placeholder="Maximum Wind" required=True>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="Minimum Pressure">Minimum Pressure</label>
+                          <input type="number" step= "1"  class="form-control" name="Minimum Pressure" placeholder="Minimum Pressure" required=True>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="Status">Status</label>
+                          <select name="Status" class="form-control">
+                          <option value="0">HU</option>
+                          <option value="1">TS</option>
+                          <option value="2">LO</option>
+                          <option value="3">TD</option>
+                          </select>
+                        </div>
+                      </div>
+                    </form>
+                    <br><br>
+                    <center>
+                      <hr class="mb-4">
+                      <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to Input Data</button></center>
+                  </div>
+                </div>
+                </form>
+            </div>          
+        </div>
+        <br><br>
+        <center><p><a class="btn btn-secondary" href="/" role="button">&laquo; Back to Home</a></p></center>
+
+        
+        </p>
+          </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        
+        <br>
+  
+
+
+</body>
+</html>
