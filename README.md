@@ -26,6 +26,18 @@ PROJECT OBJECTIVE
 ---
 The primary objective of this project is to build an effective Machine Learning Model with High Precision Score (since false nagatives would be more catastrophic than false positives) to classify the Tropical Cyclones based on their intensities using the historical data provided by NOAA.
 
+HOW CLIMATE CHANGE AFFECTS TROPICAL CYCLONE OCCURENCES
+---
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%207.png)
+
+WHY TROPICAL CYCLONE OCCURENCES ARE MORE FREQUENT IN AUGUST
+---
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%209.png)
+
+RELATIONSHIP BETWEEN MAXIMUM WIND AND MINIMUM PRESSURE
+---
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2010.5.png)
+
 DASHBOARD
 ---
 ![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2015.png)
