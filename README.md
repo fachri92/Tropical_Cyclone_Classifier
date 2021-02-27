@@ -39,6 +39,19 @@ Relationship Between Maximum Wind and Minimum Pressure
 ---
 ![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2010.5.png)
 
+Machine Learning Algorithms and Evaluation
+---
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2011.png)
+
+## Algorithms:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2012.png)
+
+## Classification Report:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2013.png)
+
+## Confusion Matrix:
+![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2014.png)
+
 Dashboard
 ---
 ![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%2015.png)
