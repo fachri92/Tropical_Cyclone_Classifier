@@ -27,6 +27,19 @@ Project Objective
 ---
 The primary objective of this project is to build an effective Machine Learning Model with High Precision Score (since false nagatives would be more catastrophic than false positives) to classify the Tropical Cyclones based on their intensities using the historical data provided by NOAA.
 
+Typhoon Classifications
+---
+| TD | Tropical cyclone of tropical depression intensity (< 34 knots)                                                   |
+|----|------------------------------------------------------------------------------------------------------------------|
+| TS | Tropical cyclone of tropical storm intensity (34-63 knots)                                                       |
+| HU | Tropical cyclone of hurricane intensity (> 64 knots)                                                             |
+| EX | Extratropical cyclone (of any intensity)                                                                         |
+| SD | Subtropical cyclone of subtropical depression intensity (< 34 knots)                                             |
+| SS | Subtropical cyclone of subtropical storm intensity (> 34 knots)                                                  |
+| LO | A low that is neither a tropical cyclone, a subtropical cyclone, nor an extratropical cyclone (of any intensity) |
+| WV | Tropical Wave (of any intensity)                                                                                 |
+| DB | Disturbance (of any intensity)                                                                                   |
+
 How Climate Change Affects Tropical Cyclone Occurences
 ---
 ![](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/Slide%207.png)
