@@ -25,7 +25,7 @@ Tropical cyclones have always been a concern for meteorologists. Machine learnin
 
 Project Objective
 ---
-The primary objective of this project is to build an effective Machine Learning Model with High Precision Score (since false nagatives would be more catastrophic than false positives) to classify the Tropical Cyclones based on their intensities using the historical data provided by NOAA.
+The primary objective of this project is to build an effective Machine Learning Model with High Recall Score (since false nagatives would be more catastrophic than false positives) to classify the Tropical Cyclones based on their intensities using the historical data provided by NOAA.
 
 Typhoon Classifications
 ---
