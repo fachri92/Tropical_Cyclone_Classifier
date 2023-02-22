@@ -1,4 +1,4 @@
-# Final Project Purwadhika Data Science : Tropical Cyclone Classifier
+# Tropical Cyclone Classifier using Machine Learning
 
 
 ![cyclone](https://github.com/fachri92/Final_Project_Tropical_Cyclone_Classifier/blob/main/Interface/aa.png)
